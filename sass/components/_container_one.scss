@@ -80,6 +80,9 @@
 }
 
 @include l-lg {
+  body {
+    @include flex;
+  }
   .news-homepage__container {
     .grid {
       gap: 2rem;
