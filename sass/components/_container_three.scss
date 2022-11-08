@@ -1,0 +1,54 @@
+@use '../abstract' as *;
+
+.container.three {
+  .topics__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .topic {
+      .container {
+        display: flex;
+        gap: 1.2rem;
+
+        .img__container {
+          width: 10rem;
+
+          .img__topic {
+            width: 100%;
+          }
+        }
+
+        .topic__content {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          // gap: 0.5rem;
+          width: 100%;
+
+          .topic__number {
+            font-size: 2rem;
+            font-weight: 700;
+          }
+
+          .title {
+            font-size: 1.13rem;
+            font-weight: 800;
+
+            &:hover {
+              color: var(--pr-clr-200);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include l-lg {
+  .container.three {
+    .topics__container {
+      flex-direction: row;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <!-- icon image -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="dist/style.css">
+  <style>
+    footer {
+      position: absolute;
+      bottom: -4rem;
+      left: 50%;
+      transform: translate(-50%, -0.25rem);
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--pr-clr-200);
+    }
+  </style>
+
+  <!-- Script -->
+  <script src="index.js" defer></script>
+
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body class="n-bg-clr-100">
+  <main>
+    <header>
+      <nav>
+        <img src="assets/images/logo.svg" alt="logo" class="logo">
+        <img src="/assets/images/icon-menu.svg" alt="" class="nav-toggle nav-button">
+        <div class="sidebar__container n-bg-clr-100">
+          <img src="assets/images/icon-menu-close.svg" alt="" class="close-nav nav-button">
+          <ul class="links__container">
+            <li><a href="#" class="nav-link">home</a></li>
+            <li><a href="#" class="nav-link">new</a></li>
+            <li><a href="#" class="nav-link">popular</a></li>
+            <li><a href="#" class="nav-link">trending</a></li>
+            <li><a href="#" class="nav-link">categories</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="news-homepage__container">
+      <section class="grid">
+        <div class="container one">
+          <div class="img-container">
+            <img src="assets/images/image-web-3-mobile.jpg" alt="" class="header-img mobile-img">
+            <img src="assets/images/image-web-3-desktop.jpg" alt="" class="desktop-img">
+          </div>
+          <div class="header__texts">
+            <h1 class="heading n-clr-400">
+              The Bright Future of Web 3.0?
+            </h1>
+            <article>
+              <p class="context n-clr-400">
+                We dive into the next evolution of the web that claims to put the power of the platforms back into the
+                hands of the people. But is it really fulfilling its promise?
+              </p>
+              <a href="#" class="read__more-btn pr-bg-clr-200">read more</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="container two n-bg-clr-400">
+          <h2 class="heading pr-clr-100">new</h2>
+          <div class="new__news_container"></div>
+        </div>
+      </section>
+
+      <section class="container three">
+        <div class="topics__container"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Fahatmah" target="_blank">Fahatmah</a>.
+  </footer>
+</body>
+
+</html>

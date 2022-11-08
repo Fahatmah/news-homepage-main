@@ -1,0 +1,27 @@
+// 600px
+@mixin md {
+  @media only screen and (min-width: 37.5rem) {
+    @content;
+  }
+}
+
+// 900px
+@mixin tablet {
+  @media only screen and (min-width: 48rem) {
+    @content;
+  }
+}
+
+// 900px
+@mixin lg {
+  @media only screen and (min-width: 56.25rem) {
+    @content;
+  }
+}
+
+// 1024px
+@mixin l-lg {
+  @media only screen and (min-width: 64rem) {
+    @content;
+  }
+}

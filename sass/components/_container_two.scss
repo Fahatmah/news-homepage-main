@@ -1,0 +1,35 @@
+@use '../abstract' as *;
+
+.container.two {
+  // display: none;
+  padding: 1.5rem;
+  padding-block-end: 0;
+
+  .heading {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .news {
+    padding-block: 2rem;
+    border-bottom: 1px solid var(--n-clr-300);
+
+    .news__title {
+      font-size: 1.26rem;
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+      display: block;
+
+      &:hover {
+        color: var(--pr-clr-100);
+      }
+    }
+  }
+}
+
+// @include l-lg {
+//   .container.two {
+//     width: 20rem;
+//   }
+// }

@@ -1,0 +1,106 @@
+:root {
+  // primary
+  --pr-clr-100: hsl(35, 77%, 62%); // soft-orange
+  --pr-clr-200: hsl(5, 85%, 63%); // soft-red
+
+  // neutral
+  --n-clr-100: hsl(36, 100%, 99%); // off-white
+  --n-clr-200: hsl(233, 8%, 79%); // grayish blue
+  --n-clr-300: hsl(236, 13%, 42%); // dark grayish blue
+  --n-clr-400: hsl(240, 100%, 5%); // very dark blue
+
+  --ff-inter: 'Inter', sans-serif;
+
+  --fs-100: 0.9375rem; // paragraph
+
+  --fw-reg: 400;
+  --fw-medium: 700;
+  --fw-bold: 800;
+
+  --ff-body: var(--ff-inter);
+  --ff-paragraph: var(--fs-100);
+
+  --debug: 1px solid #333;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background: none;
+}
+
+body {
+  position: relative;
+  font-family: var(--ff-body);
+}
+
+main {
+  width: min(100% - 2rem, 70rem);
+  margin-inline: auto;
+  margin-block: 1.6rem 4rem;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: hsl(240, 100%, 5%, 0.3);
+  z-index: 1;
+}
+
+.context {
+  font-size: var(--fs-100);
+  line-height: 1.6;
+}
+
+// utility class
+
+.pr-clr-100 {
+  color: var(--pr-clr-100);
+}
+
+.pr-clr-200 {
+  color: var(--pr-clr-200);
+}
+
+.pr-bg-clr-100 {
+  background-color: var(--pr-clr-100);
+}
+
+.pr-bg-clr-200 {
+  background-color: var(--pr-clr-200);
+}
+
+.n-clr-100 {
+  color: var(--n-clr-100);
+}
+
+.n-clr-200 {
+  color: var(--n-clr-200);
+}
+
+.n-clr-300 {
+  color: var(--n-clr-300);
+}
+
+.n-clr-400 {
+  color: var(--n-clr-400);
+}
+
+.n-bg-clr-100 {
+  background-color: var(--n-clr-100);
+}
+
+.n-bg-clr-200 {
+  background-color: var(--n-clr-200);
+}
+
+.n-bg-clr-300 {
+  background-color: var(--n-clr-300);
+}
+
+.n-bg-clr-400 {
+  background-color: var(--n-clr-400);
+}
