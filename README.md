@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [News Homepage]()
-- Live Site URL: [News Homepage]()
+- Solution URL: [News Homepage](https://github.com/Fahatmah/news-homepage-main.git)
+- Live Site URL: [News Homepage](https://news-homepage-fem.netlify.app/)
 
 ## My process
 
